@@ -13,7 +13,7 @@ export const navLinksLeft = [
     name: "My Work",
   },
   {
-    href: "https://github.com/rerebebe/rerebebe.github.io",
+    href: "https://github.com/rerebebe/MyProfolio",
     name: "GitHub",
   },
   {
