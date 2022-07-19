@@ -13,7 +13,7 @@ function ProjectsGallery() {
             basic function of adding and editing, other than that it has a
             finish feature, it lets you examine what items you have been done
             before and you can also delete it afterwards! I used json-server as
-            a mock API to store the previous information of the to-do list.
+            a mock API to store the previous information for the to-do list.
             <a href="/my-work/to-do">
               <button className="buttonNeonYellow">
                 Check this out
