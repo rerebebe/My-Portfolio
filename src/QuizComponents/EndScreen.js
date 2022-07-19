@@ -23,7 +23,7 @@ function EndScreen() {
   }
   return (
     <div className="EndScreen">
-      <h1 className="mb-2 text-5xl font-bold text-white ">You did it!</h1>
+      <h1 className="mb-2 text-5xl font-bold text-white ">Done!</h1>
       <p className="ml-2 px-3 mb-5 text-2xl text-pink-200">
         {result()}
         {/* {Questions.length / 2 < score

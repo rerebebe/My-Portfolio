@@ -124,7 +124,7 @@ function Quiz() {
           Next Question
         </button>
       )}
-      <div>{JSON.stringify(answer)}</div>
+      {/* <div>{JSON.stringify(answer)}</div> */}
     </div>
   );
 }

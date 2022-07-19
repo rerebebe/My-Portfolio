@@ -12,11 +12,11 @@ function Home1() {
             <br />
             <span>Regina Liu</span>
           </h1>
-          <p className="text-white text-base text-gray-300 sm:mt-5 mt-3">
-            This is my coding journey, using React.js, some of the projects I
-            styled them with CSS and some of them are styled with TailwindCSS,
-            please see the introduction in each of my work. Contact me if you
-            are interested!
+          <p>
+            This is my coding journey using React.js with javacript, some of the
+            projects I styled them with CSS and some of them are styled with
+            TailwindCSS, please see the introduction in each of my work.{" "}
+            <br></br> Contact me if you are interested!
           </p>
           <EmailForm />
         </div>

@@ -46,6 +46,11 @@
   color: transparent;
 }
 
+.TitleWithoutPic > p {
+  color: rgb(230, 224, 224);
+  font-size: medium;
+}
+
 @media (orientation: portrait), (max-width: 600px) {
   .About {
     display: flex;
