@@ -17,8 +17,8 @@ export const navLinksLeft = [
     name: "GitHub",
   },
   {
-    href: "/",
-    name: "Contact Me",
+    href: "https://drive.google.com/file/d/1vGQ7Umm1XGGzc9dOkIJ5ybYdPf-tpgkE/view?usp=sharing",
+    name: "My Resume",
   },
 ];
 
@@ -35,6 +35,7 @@ const Nav = () => {
             link // 再從上面的array裡面抓
           ) => (
             <a
+              download={link.name === "My Resume"}
               target={link.name === "GitHub" ? "_blank" : "_self"}
               key={link.name}
               href={link.href}
