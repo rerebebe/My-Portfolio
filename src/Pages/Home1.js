@@ -5,6 +5,13 @@ import "../MyProfolio.css";
 function Home1() {
   return (
     <div>
+      <div className="background">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+      </div>
       <div className="About">
         <div className="TitleWithoutPic">
           <h1 className="HeaderText">

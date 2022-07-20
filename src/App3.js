@@ -10,17 +10,19 @@ import "./App.css";
 
 function App3() {
   return (
-    <Router>
-      <nav>{<Nav />}</nav>
-      <Routes>
-        <Route path="/" element={<Home1 />} />
-        <Route path="/my-work" element={<ProjectsGallery />} />
-        <Route path="/my-work/Quiz" element={<App />} />
-        <Route path="/my-work/to-do" element={<App2 />} />
-        <Route path="/my-work/shortner" element={<Home />} />
-        <Route path="*" element={<ErrorPage />} />
-      </Routes>
-    </Router>
+    <div>
+      <Router>
+        <nav>{<Nav />}</nav>
+        <Routes>
+          <Route path="/" element={<Home1 />} />
+          <Route path="/my-work" element={<ProjectsGallery />} />
+          <Route path="/my-work/Quiz" element={<App />} />
+          <Route path="/my-work/to-do" element={<App2 />} />
+          <Route path="/my-work/shortner" element={<Home />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
