@@ -10,10 +10,11 @@ function ProjectsGallery() {
           <h1>To-Do List</h1>
           <p className="paragraph">
             This is a React project styled with TailwindCSS, it includes the
-            basic function of adding and editing, other than that it has a
-            finish feature, it lets you examine what items you have been done
-            before and you can also delete it afterwards! I used json-server as
-            a mock API to store the previous information for the to-do list.
+            basic function of adding and editing, other than that it has another
+            section for finished tasks, and it lets you examine what items you
+            have been done before and you can also delete it afterwards! I used
+            json-server as a mock API to store the data for the to-do list. The
+            json-server is being deployed on Heroku.
             <a href="/my-work/to-do">
               <button className="buttonNeonYellow">
                 Check this out
