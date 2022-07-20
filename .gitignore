@@ -9,4 +9,4 @@
 /build
 
 # original json-server database
-/db.json
+db.json
