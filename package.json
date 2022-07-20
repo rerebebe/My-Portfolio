@@ -2,6 +2,7 @@
   "name": "shortly",
   "version": "0.1.0",
   "private": true,
+  "main": "server.js",
   "dependencies": {
     "@craco/craco": "^6.1.0",
     "@tailwindcss/postcss7-compat": "^2.0.2",
@@ -25,12 +26,11 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "node server.js",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "prettier": "prettier -w src/",
-    "server": "json-server --watch db.json --port 8000"
+    "prettier": "prettier -w src/"
   },
   "eslintConfig": {
     "extends": [
@@ -49,5 +49,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "keywords": [
+    "json-server,heroku, node, REST API"
+  ],
+  "author": "Jesper Orb",
+  "license": "ISC"
 }
