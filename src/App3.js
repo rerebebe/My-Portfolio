@@ -4,6 +4,7 @@ import App2 from "./App2.js";
 import ErrorPage from "./Pages/ErrorPage";
 import Nav from "./components/Nav";
 import App from "./App.js";
+//import LandingPage from "./MotelPage/Component/Pages/LandingPage";
 import ProjectsGallery from "./components/MyWork/ProjectsGallery";
 import Home from "./components/Home";
 
@@ -20,6 +21,7 @@ function App3() {
           <Route path="/my-work/Quiz" element={<App />} />
           <Route path="/my-work/to-do" element={<App2 />} />
           <Route path="/my-work/shortner" element={<Home />} />
+          {/* <Route path="/my-work/motelproject" element={<LandingPage />} /> */}
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </Router>
