@@ -7,3 +7,6 @@
 
 # production
 /build
+
+# original json-server database
+/db.json
