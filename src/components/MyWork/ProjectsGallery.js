@@ -39,7 +39,7 @@ function ProjectsGallery() {
             helping them design the Landing Page for their family business, the
             functionality wasn't completely done since there's lots of
             discussion still in the progress.
-            <a href="https://62cfd5a7fa2ec3346e186aba--jovial-baklava-72509f.netlify.app/">
+            <a href="https://62cfd5a7fa2ec3346e186aba--jovial-baklava-72509f.netlify.app">
               <button className="buttonNeonOrange">
                 Check this out{" "}
                 <IoIosArrowRoundForward size="1.5rem" margin="auto" />

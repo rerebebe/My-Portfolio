@@ -6,6 +6,7 @@ import Nav from "./components/Nav";
 import App from "./App.js";
 import ProjectsGallery from "./components/MyWork/ProjectsGallery";
 import Home from "./components/Home";
+
 import "./App.css";
 
 function App3() {

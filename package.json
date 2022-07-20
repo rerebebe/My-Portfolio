@@ -29,8 +29,7 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "prettier": "prettier -w src/",
-    "server": "json-server --watch db.json --port 8000"
+    "prettier": "prettier -w src/"
   },
   "eslintConfig": {
     "extends": [

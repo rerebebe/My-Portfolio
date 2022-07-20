@@ -4,7 +4,6 @@ import "./index.css";
 import Edit from "./ToDoList/Edit.js";
 import List from "./ToDoList/List.js";
 import "./index.css";
-import ListDelete from "./ToDoList/ListDelete";
 
 // 從資料庫抓資料
 async function fetchData(setData) {
