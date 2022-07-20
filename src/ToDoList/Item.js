@@ -56,7 +56,7 @@ const Item = ({
 
   return (
     <div className="w-full border-2 text-white mb-10 py-4 flex justify-between items-center">
-      <div className="ml-2">
+      <div className="ml-4">
         <p className="text-lg">{note}</p>
         <p></p>
         <p className="text-md">{`${date} ${time}`}</p>
