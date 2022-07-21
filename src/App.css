@@ -134,3 +134,29 @@
     transform: rotate(0deg);
   }
 }
+
+@media (orientation: portrait), (max-width: 500px) {
+  .Menu,
+  .Quiz,
+  .EndScreen,
+  .CheckYourAnswer {
+    width: 450px;
+    height: 550px;
+    border-radius: 10px;
+    background-color: rgb(66, 96, 143);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px;
+  }
+  .Title {
+    margin-bottom: 80px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+}

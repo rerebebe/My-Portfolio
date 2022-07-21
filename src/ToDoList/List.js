@@ -12,7 +12,7 @@ const List = ({
   return (
     <div className="pt-10 text-white">
       <div>
-        {JSON.stringify(listData)}
+        {/* {JSON.stringify(listData)} */}
 
         {listData.map((item) => {
           const { id, note, date, time } = item;
@@ -38,7 +38,7 @@ const List = ({
         <p className="text-3xl font-bold sm:text-3xl lg:mt-6 tracking-tight">
           Finished Tasks :
         </p>
-        {JSON.stringify(finishedTask)}
+        {/* {JSON.stringify(finishedTask)} */}
         {finishedTask.map((item) => {
           const { id, note, date, time } = item;
           return (

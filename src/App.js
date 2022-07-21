@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="text-6xl mt-16 font-extrabold sm:text-6xl lg:mt-16 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 to-pink-400">
+      <h1 className="text-6xl mt-10 font-extrabold sm:text-6xl sm:mt-10 lg:mt-16 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 to-pink-400">
         Quizzzzzz
       </h1>
       <QuizContext.Provider

@@ -1,6 +1,5 @@
 import "./MyWork.css";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import Home from "../Home.js";
 
 function ProjectsGallery() {
   return (
