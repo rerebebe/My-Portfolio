@@ -37,7 +37,7 @@ const Nav = () => {
             ) => (
               <a
                 download={link.name === "My Resume"}
-                target={link.name === "GitHub" ? "_blank" : "_self"}
+                target={link.name === "GitHub" ? "rel=noopener" : "_self"}
                 key={link.name}
                 href={link.href}
                 className={

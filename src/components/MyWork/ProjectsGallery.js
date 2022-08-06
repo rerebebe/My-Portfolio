@@ -86,8 +86,34 @@ function ProjectsGallery() {
                 Check this out{" "}
                 <IoIosArrowRoundForward size="1.5rem" margin="auto" />
               </button>
+            </a>{" "}
+            ` `
+          </p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h1>Full Stack Project</h1>
+          <p className="paragraph">
+            This is a complete version for to-do list, I used
+            <a
+              href="https://github.com/rerebebe/mysql-todo-authlogin"
+              target="rel=noopener"
+            >
+              <button className="buttonNeonOrange">
+                Check this out{" "}
+                <IoIosArrowRoundForward size="1.5rem" margin="auto" />
+              </button>
             </a>
           </p>
+        </div>
+        <div className="ImgWrap">
+          <img
+            src="/MySQL.png"
+            alt="MySQL login ToDoList"
+            width="640"
+            height="420"
+          />
         </div>
       </div>
     </div>

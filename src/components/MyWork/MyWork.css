@@ -3,7 +3,7 @@
 }
 
 .MyWork > div {
-  margin-top: 70px;
+  margin: 70px 0px;
   display: grid;
   grid-template-columns: repeat(2, 50%);
   align-items: center;
