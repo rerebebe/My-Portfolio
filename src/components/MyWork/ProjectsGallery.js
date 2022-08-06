@@ -95,7 +95,12 @@ function ProjectsGallery() {
         <div>
           <h1>Full Stack Project</h1>
           <p className="paragraph">
-            This is a complete version for to-do list, I used
+            This is a completed version for to-do list, I used ReactJS, NodeJS,
+            Express, MySQL to build a basic login/register system, It includes
+            registering users, inserting data into a DataBase, and reading the
+            data to allow a login. Once users register/login in their account,
+            they are able to read and create their own data on their the to-do
+            list.
             <a
               href="https://github.com/rerebebe/mysql-todo-authlogin"
               target="rel=noopener"
