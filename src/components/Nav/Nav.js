@@ -17,7 +17,7 @@ export const navLinksLeft = [
     name: "GitHub",
   },
   {
-    href: "https://drive.google.com/file/d/1vGQ7Umm1XGGzc9dOkIJ5ybYdPf-tpgkE/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1WjIxnnAnnKXK00_vRkmOqFZOzyPd-TUU/view?usp=sharing",
     name: "My Resume",
   },
 ];
