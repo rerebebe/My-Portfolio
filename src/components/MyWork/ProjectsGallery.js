@@ -102,7 +102,7 @@ function ProjectsGallery() {
             they are able to read and create their own data on their the to-do
             list.
             <a
-              href="https://github.com/rerebebe/mysql-todo-authlogin"
+              href="https://github.com/rerebebe/new-mysql-0807"
               target="rel=noopener"
             >
               <button className="buttonNeonOrange">
