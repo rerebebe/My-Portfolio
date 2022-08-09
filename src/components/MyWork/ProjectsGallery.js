@@ -13,7 +13,8 @@ function ProjectsGallery() {
             registering users, inserting data into a DataBase, and reading the
             data to allow a login. Once users register/login in their account,
             they are able to read and create their own data on their the to-do
-            list.
+            list. The user is able to get reminder alert if it's due on the same
+            date they log in.
             <a
               href="https://github.com/rerebebe/new-mysql-0807"
               target="rel=noopener"
