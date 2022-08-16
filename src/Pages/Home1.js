@@ -19,11 +19,11 @@ function Home1() {
             <br />
             <span>Regina Liu</span>
           </h1>
-          <p>
-            This is my coding journey using React.js with javacript, some of the
-            projects I styled them with CSS and some of them are styled with
-            TailwindCSS, please see the introduction in each of my work.{" "}
-            <br></br> Contact me if you are interested!
+          <p className="text-3xl">
+            This is my coding journey using React.js. Please check my profolio
+            for more details &#128521;
+            <br />
+            Contact me if you are interested!
           </p>
           <EmailForm />
         </div>
