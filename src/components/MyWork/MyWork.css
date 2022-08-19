@@ -38,6 +38,8 @@
   text-align: center;
   align-items: center;
   padding: 70px;
+  word-break: break-all;
+  padding-right: 10px;
 }
 
 .ImgWrap {

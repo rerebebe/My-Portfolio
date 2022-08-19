@@ -52,7 +52,7 @@ function ProjectsGallery() {
           <img src="/hotelPage.png" alt="hotel page" width="600" height="500" />
         </div>
         <div>
-          <h1>Motel LandingPage(In process...)</h1>
+          <h1>Motel Landing Page(In the process..)</h1>
           <p className="paragraph">
             This project is styled with pure CSS,and using react-router-dom to
             help navigate through the website . It was a favor for a friend
@@ -68,6 +68,7 @@ function ProjectsGallery() {
           </p>
         </div>
       </div>
+
       <div>
         <div>
           <h1>Quiz App</h1>
@@ -88,6 +89,7 @@ function ProjectsGallery() {
           <img src="/Quizzie.png" alt="Quiz" width="600" height="500" />
         </div>
       </div>
+
       <div className="div2n4">
         <div className="ImgWrap">
           <img
@@ -111,11 +113,12 @@ function ProjectsGallery() {
           </p>
         </div>
       </div>
+
       <div>
         <div>
           <h1>To-Do List</h1>
           <p className="paragraph">
-            This is a React project styled with TailwindCSS, it includes the
+            This is a Reasct project styled with TailwindCSS, it includes the
             basic function of adding and editing, other than that it has another
             section for finished tasks, and it lets you examine what items you
             have been done before and you can also delete it afterwards! I used
