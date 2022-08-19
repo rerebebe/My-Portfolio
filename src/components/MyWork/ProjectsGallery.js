@@ -38,18 +38,33 @@ function ProjectsGallery() {
           </p>
         </div>
         <div className="ImgWrap">
-          <img
-            src="/MySQL.png"
-            alt="MySQL login ToDoList"
-            width="640"
-            height="420"
-          />
+          <a
+            href="https://todo-frontend-mysql.herokuapp.com/"
+            target="rel=noopener"
+          >
+            <img
+              src="/MySQL.png"
+              alt="MySQL login ToDoList"
+              width="640"
+              height="420"
+            />
+          </a>
         </div>
       </div>
 
       <div className="div2n4">
         <div className="ImgWrap">
-          <img src="/hotelPage.png" alt="hotel page" width="600" height="500" />
+          <a
+            href="https://62cfd5a7fa2ec3346e186aba--jovial-baklava-72509f.netlify.app"
+            target="rel=noopener"
+          >
+            <img
+              src="/hotelPage.png"
+              alt="hotel page"
+              width="600"
+              height="500"
+            />
+          </a>
         </div>
         <div>
           <h1>
@@ -81,7 +96,7 @@ function ProjectsGallery() {
             TailwindCSS, it was another practice of React and in the end you can
             check what was your answer of each questions. And it will give you
             comments in the end based on your score of the quiz.
-            <a href="/my-work/Quiz">
+            <a href="/my-work/Quiz" target="rel=noopener">
               <button className="buttonNeonYellow">
                 Check this out
                 <IoIosArrowRoundForward size="1.5rem" margin="auto" />
@@ -89,26 +104,31 @@ function ProjectsGallery() {
             </a>
           </p>
         </div>
+
         <div className="ImgWrap">
-          <img src="/Quizzie.png" alt="Quiz" width="600" height="500" />
+          <a href="/my-work/Quiz" target="rel=noopener">
+            <img src="/Quizzie.png" alt="Quiz" width="600" height="500" />
+          </a>
         </div>
       </div>
 
       <div className="div2n4">
         <div className="ImgWrap">
-          <img
-            src="/Shot-Link API.png"
-            alt="link shortner API"
-            width="600"
-            height="500"
-          />
+          <a href="/my-work/shortner" target="rel=noopener">
+            <img
+              src="/Shot-Link API.png"
+              alt="link shortner API"
+              width="600"
+              height="500"
+            />
+          </a>
         </div>
         <div>
           <h1>Project 4</h1>
           <p className="paragraph">
             This is a practive project of API integration that built with React,
             Tailwind, and shrtcode API.
-            <a href="/my-work/shortner">
+            <a href="/my-work/shortner" target="rel=noopener">
               <button className="buttonNeonOrange">
                 Check this out
                 <IoIosArrowRoundForward size="1.5rem" margin="auto" />
@@ -128,7 +148,7 @@ function ProjectsGallery() {
             have been done before and you can also delete it afterwards! I used
             json-server as a mock API to store the data for the to-do list. The
             json-server is being deployed on Heroku.
-            <a href="/my-work/to-do">
+            <a href="/my-work/to-do" target="rel=noopener">
               <button className="buttonNeonYellow">
                 Check this out
                 <IoIosArrowRoundForward size="1.5rem" margin="auto" />
@@ -137,7 +157,9 @@ function ProjectsGallery() {
           </p>
         </div>
         <div className="ImgWrap">
-          <img src="/to-do.png" alt="To Do List" width="600" height="500" />
+          <a href="/my-work/to-do">
+            <img src="/to-do.png" alt="To Do List" width="600" height="500" />
+          </a>
         </div>
       </div>
     </div>
