@@ -52,7 +52,11 @@ function ProjectsGallery() {
           <img src="/hotelPage.png" alt="hotel page" width="600" height="500" />
         </div>
         <div>
-          <h1>Motel Landing Page(In the process..)</h1>
+          <h1>
+            Motel Landing Page
+            <br />
+            (In the process..)
+          </h1>
           <p className="paragraph">
             This project is styled with pure CSS,and using react-router-dom to
             help navigate through the website . It was a favor for a friend
