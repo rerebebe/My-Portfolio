@@ -1,6 +1,18 @@
 .MyWork {
   display: block;
 }
+.parallel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+.Sizechange {
+  color: black;
+}
+.Sizechange :hover {
+  color: white;
+}
 
 .MyWork > div {
   margin: 70px 0px;

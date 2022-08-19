@@ -1,5 +1,6 @@
 import "./MyWork.css";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import { GoMarkGithub } from "react-icons/go";
 
 function ProjectsGallery() {
   return (
@@ -15,15 +16,25 @@ function ProjectsGallery() {
             they are able to read and create their own data on their the to-do
             list. The user is able to get reminder alert if it's due on the same
             date they log in.
-            <a
-              href="https://github.com/rerebebe/new-mysql-0807"
-              target="rel=noopener"
-            >
-              <button className="buttonNeonOrange">
-                Check this out
-                <IoIosArrowRoundForward size="1.5rem" margin="auto" />
-              </button>
-            </a>
+            <div className="parallel">
+              <a
+                href="https://todo-frontend-mysql.herokuapp.com/"
+                target="rel=noopener"
+              >
+                <button className="buttonNeonOrange">
+                  Check this out
+                  <IoIosArrowRoundForward size="1.5rem" margin="auto" />
+                </button>
+              </a>
+              <a
+                href="https://github.com/rerebebe/new-mysql-0807"
+                target="rel=noopener"
+              >
+                <span className="Sizechange">
+                  <GoMarkGithub size="2rem" margin="auto" />
+                </span>
+              </a>
+            </div>
           </p>
         </div>
         <div className="ImgWrap">
