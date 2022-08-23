@@ -20,8 +20,9 @@ function Home1() {
             <span>Regina Liu</span>
           </h1>
           <p className="text-3xl">
-            This is my coding journey using React.js. Please check my profolio
-            for more details &#128521;
+            I am a Software Engineer working with React and JavaScript. Take a
+            look at my work and get in touch! Please check my profolio for more
+            details &#128521;
             <br />
             Contact me if you are interested!
           </p>
