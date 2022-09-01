@@ -54,6 +54,33 @@ function ProjectsGallery() {
 
       <div className="div2n4">
         <div className="ImgWrap">
+          <a href="https://github.com/rerebebe/chat-app" target="rel=noopener">
+            <img src="/chat-app.png" alt="chat app" width="600" height="500" />
+          </a>
+        </div>
+        <div>
+          <h1>Chat-App</h1>
+          <p className="paragraph">
+            This is built with socket.io Library in React, I use Node.js and
+            express to build an HTTP Socket server and a basic login/register
+            system. I also use MongoDB as database, you can add friend, get
+            requests and chat in this application and everything will be stored
+            in MongoDB database.
+            <a
+              href="https://github.com/rerebebe/chat-app"
+              target="rel=noopener"
+            >
+              <button className="buttonNeonOrange">
+                Check this out{" "}
+                <IoIosArrowRoundForward size="1.5rem" margin="auto" />
+              </button>
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <div className="ImgWrap">
           <a
             href="https://62cfd5a7fa2ec3346e186aba--jovial-baklava-72509f.netlify.app"
             target="rel=noopener"
@@ -88,7 +115,7 @@ function ProjectsGallery() {
         </div>
       </div>
 
-      <div>
+      <div className="div2n4">
         <div>
           <h1>Quiz App</h1>
           <p className="paragraph">
@@ -112,7 +139,7 @@ function ProjectsGallery() {
         </div>
       </div>
 
-      <div className="div2n4">
+      <div>
         <div className="ImgWrap">
           <a href="/my-work/shortner" target="rel=noopener">
             <img
@@ -138,7 +165,7 @@ function ProjectsGallery() {
         </div>
       </div>
 
-      <div>
+      <div className="div2n4">
         <div>
           <h1>To-Do List</h1>
           <p className="paragraph">
