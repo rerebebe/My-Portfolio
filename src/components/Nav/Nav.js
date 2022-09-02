@@ -17,7 +17,7 @@ export const navLinksLeft = [
     name: "GitHub",
   },
   {
-    href: "https://docs.google.com/document/d/1v3kKdf2BAov9pVJAqPhu3O3WtpuldlCM/edit?usp=sharing&ouid=108877005941194110003&rtpof=true&sd=true",
+    href: "https://drive.google.com/file/d/14X_kqQnNumMjSndY4ckbmAohFRebm1Gi/view?usp=sharing",
     name: "My Resume",
   },
 ];
@@ -37,11 +37,7 @@ const Nav = () => {
             ) => (
               <a
                 download={link.name === "My Resume"}
-                target={
-                  link.name === "GitHub" || "My Resume"
-                    ? "rel=noopener"
-                    : "_self"
-                }
+                target={link.name === "GitHub" ? "_blank" : "_self"}
                 key={link.name}
                 href={link.href}
                 className={
