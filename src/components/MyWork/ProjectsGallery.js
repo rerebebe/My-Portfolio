@@ -66,15 +66,25 @@ function ProjectsGallery() {
             system. I also use MongoDB as database, you can add friend, get
             requests and chat in this application and everything will be stored
             in MongoDB database.
-            <a
-              href="https://github.com/rerebebe/chat-app"
-              target="rel=noopener"
-            >
-              <button className="buttonNeonOrange">
-                Check this out{" "}
-                <IoIosArrowRoundForward size="1.5rem" margin="auto" />
-              </button>
-            </a>
+            <div className="parallel">
+              <a
+                href="https://serene-pavlova-7c5355.netlify.app/"
+                target="rel=noopener"
+              >
+                <button className="buttonNeonOrange">
+                  Check this out{" "}
+                  <IoIosArrowRoundForward size="1.5rem" margin="auto" />
+                </button>
+              </a>
+              <a
+                href="https://github.com/rerebebe/chat-app"
+                target="rel=noopener"
+              >
+                <span className="Sizechange">
+                  <GoMarkGithub size="2rem" margin="auto" />
+                </span>
+              </a>
+            </div>
           </p>
         </div>
       </div>
