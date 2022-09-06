@@ -54,7 +54,10 @@ function ProjectsGallery() {
 
       <div className="div2n4">
         <div className="ImgWrap">
-          <a href="https://github.com/rerebebe/chat-app" target="rel=noopener">
+          <a
+            href="https://flourishing-creponne-591bce.netlify.app/"
+            target="rel=noopener"
+          >
             <img src="/chat-app.png" alt="chat app" width="600" height="500" />
           </a>
         </div>
@@ -68,7 +71,7 @@ function ProjectsGallery() {
             in MongoDB database.
             <div className="parallel">
               <a
-                href="https://serene-pavlova-7c5355.netlify.app/"
+                href="https://flourishing-creponne-591bce.netlify.app/"
                 target="rel=noopener"
               >
                 <button className="buttonNeonOrange">
