@@ -1,3 +1,7 @@
+h2 {
+  font-size: x-large;
+  font-weight: 800;
+}
 .MyWork {
   display: block;
   margin: 2%;
@@ -44,12 +48,23 @@
 }
 
 .ImgWrap {
-  transform: scaleY(2s, 100px);
-  padding: 20px;
+  padding: 30px;
   background-image: radial-gradient(beige, rgb(141, 218, 218));
   border-radius: 5px;
   box-shadow: 2px 2px 5px 0px #555;
   position: relative;
+  animation: mymove 5s infinite;
+}
+.ImgWrapParallel {
+  transform: scaleY(2s, 100px);
+  padding: 30px;
+  margin: 40px;
+  background-image: radial-gradient(beige, rgb(141, 218, 218));
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 0px #555;
+  position: relative;
+  height: 52rem;
+  width: 39rem;
   animation: mymove 5s infinite;
 }
 

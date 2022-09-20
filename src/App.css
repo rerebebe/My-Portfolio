@@ -1,27 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-.Body {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  padding: 1%;
+  background: linear-gradient(-45deg, #10b981, #3b82f6);
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 .stickynav {
   position: sticky;
   top: 0;
@@ -42,6 +33,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 10px;
+  margin-bottom: 100px;
   padding: 20px;
 }
 
@@ -153,8 +145,8 @@
   .Quiz,
   .EndScreen,
   .CheckYourAnswer {
-    width: 450px;
-    height: 550px;
+    width: 380px;
+    height: 630px;
     border-radius: 10px;
     background-color: rgb(66, 96, 143);
     display: flex;

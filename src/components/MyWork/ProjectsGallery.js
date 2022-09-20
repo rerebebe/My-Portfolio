@@ -93,7 +93,7 @@ function ProjectsGallery() {
       </div>
 
       <div>
-        <div className="ImgWrap">
+        <div className="ImgWrapParallel">
           <a
             href="https://62cfd5a7fa2ec3346e186aba--jovial-baklava-72509f.netlify.app"
             target="rel=noopener"
@@ -103,15 +103,14 @@ function ProjectsGallery() {
               alt="hotel page"
               width="600"
               height="500"
+              style={{ marginTop: 20, marginBottom: 20 }}
             />
           </a>
-        </div>
-        <div>
-          <h1>
-            Motel Landing Page
-            <br />
-            (In the process..)
-          </h1>
+
+          <h1>Motel Landing Page </h1>
+          <br />
+          <h2>(In the process..)</h2>
+
           <p className="paragraph">
             This project is styled with pure CSS,and using react-router-dom to
             help navigate through the website . It was a favor for a friend
@@ -119,17 +118,23 @@ function ProjectsGallery() {
             functionality wasn't completely done since there's lots of
             discussion still in the progress.
             <a href="https://62cfd5a7fa2ec3346e186aba--jovial-baklava-72509f.netlify.app">
-              <button className="buttonNeonOrange">
+              <button className="buttonNeonOrange" target="rel=noopener">
                 Check this out{" "}
                 <IoIosArrowRoundForward size="1.5rem" margin="auto" />
               </button>
             </a>
           </p>
         </div>
-      </div>
-
-      <div className="div2n4">
-        <div>
+        <div className="ImgWrapParallel">
+          <a href="/my-work/Quiz" target="rel=noopener">
+            <img
+              src="/Quizzie.png"
+              alt="Quiz"
+              width="600"
+              height="500"
+              style={{ marginTop: 20, marginBottom: 20 }}
+            />
+          </a>
           <h1>Quiz App</h1>
           <p className="paragraph">
             This is a React project styled with pure CSS and part of
@@ -143,12 +148,6 @@ function ProjectsGallery() {
               </button>
             </a>
           </p>
-        </div>
-
-        <div className="ImgWrap">
-          <a href="/my-work/Quiz" target="rel=noopener">
-            <img src="/Quizzie.png" alt="Quiz" width="600" height="500" />
-          </a>
         </div>
       </div>
 
@@ -197,7 +196,7 @@ function ProjectsGallery() {
           </p>
         </div>
         <div className="ImgWrap">
-          <a href="/my-work/to-do">
+          <a href="/my-work/to-do" target="rel=noopener">
             <img src="/to-do.png" alt="To Do List" width="600" height="500" />
           </a>
         </div>

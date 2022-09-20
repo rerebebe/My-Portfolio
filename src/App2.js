@@ -73,7 +73,7 @@ const App2 = () => {
   }, [finish]);
 
   return (
-    <div className="text-white w-full p-5 mr-4 justify-center">
+    <div className="text-white w-full p-5 mr-4 justify-center bg-gradient-to-r from-blue-500 to-blue-400">
       <Edit add={setData} submittingstatus={submittingstatus} />
       <List
         add={setData}
