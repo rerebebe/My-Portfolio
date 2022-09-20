@@ -74,7 +74,7 @@ function ProjectsGallery() {
                 href="https://flourishing-creponne-591bce.netlify.app/"
                 target="rel=noopener"
               >
-                <button className="buttonNeonOrange">
+                <button className="buttonNeonYellow">
                   Check this out{" "}
                   <IoIosArrowRoundForward size="1.5rem" margin="auto" />
                 </button>

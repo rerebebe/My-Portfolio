@@ -22,6 +22,12 @@
     background-position: 0% 50%;
   }
 }
+.stickynav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
 
 .Menu,
 .Quiz,
@@ -134,8 +140,15 @@
     transform: rotate(0deg);
   }
 }
+.hidden {
+  display: none;
+}
 
 @media (orientation: portrait), (max-width: 500px) {
+  .hidden {
+    display: block;
+  }
+
   .Menu,
   .Quiz,
   .EndScreen,

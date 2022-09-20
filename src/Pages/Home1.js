@@ -1,10 +1,18 @@
+import { useState, useEffect } from "react";
 import EmailForm from "./EmailForm.js";
 import "../MyProfolio.css";
 
 // This is for the profolio
 function Home1() {
+  const [current, setCurrent] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setCurrent(!current);
+    }, 1000);
+  });
   return (
-    <div>
+    <div className="App">
       <div className="background">
         <div class="cube"></div>
         <div class="cube"></div>
@@ -29,8 +37,13 @@ function Home1() {
           <EmailForm />
         </div>
         <div className="mt-12 lg:relative">
-          <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
-            <img src="/UNI.png" alt="This is a unicorn." />
+          <div>
+            <img
+              src={current ? "/IMG_2445.png" : "/IMG_3446.png"}
+              alt="This is a unicorn."
+              width="700"
+              height="700"
+            />
           </div>
         </div>
       </div>

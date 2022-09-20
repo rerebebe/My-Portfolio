@@ -4,6 +4,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 1%;
+  background: linear-gradient(-45deg, #10b981, #3b82f6);
 }
 .background {
   background: #fff;
@@ -70,7 +72,7 @@
 }
 /* lg:py-24 mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 */
 .TitleWithoutPic {
-  padding: 25px;
+  padding: 10px;
   margin: 50px;
   margin-top: 90px;
   align-content: center;
@@ -107,10 +109,11 @@
   font-size: medium;
 }
 
-@media (orientation: portrait), (max-width: 600px) {
+@media (orientation: portrait), (max-width: 700px) {
   .About {
     display: flex;
     flex-direction: column;
+    margin: 20px;
   }
   .TitleWithoutPic {
     align-content: center;

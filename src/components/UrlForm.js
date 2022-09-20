@@ -44,7 +44,7 @@ const UrlForm = () => {
               URL Input : this is the label for input
             </label>
             <input
-              type="text"
+              type="url"
               name="url"
               onChange={(e) => {
                 setUrl(e.target.value);
