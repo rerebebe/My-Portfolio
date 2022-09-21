@@ -4,6 +4,7 @@ import { Box } from "./Box.js";
 import { Link, useLocation } from "react-router-dom";
 import MobileNav from "./MobileNav.js";
 import Burger from "./Burger";
+import { CgUserlane } from "react-icons/cg";
 
 const NewNav = () => {
   const { isDark } = useTheme();
@@ -15,6 +16,7 @@ const NewNav = () => {
     <Box>
       <Navbar isBordered={isDark} variant="sticky">
         <Navbar.Brand>
+          <CgUserlane size="2rem" margin="auto" color="pink" />
           <Burger active={active} setActive={setActive} />
         </Navbar.Brand>
         <Navbar.Content enableCursorHighlight hideIn="xs" variant="underline">
