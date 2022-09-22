@@ -142,7 +142,7 @@ function ProjectsGallery() {
             check what was your answer of each questions. And it will give you
             comments in the end based on your score of the quiz.
             <a href="/my-work/Quiz" target="rel=noopener">
-              <button className="buttonNeonYellow">
+              <button className="buttonNeonOrange">
                 Check this out
                 <IoIosArrowRoundForward size="1.5rem" margin="auto" />
               </button>

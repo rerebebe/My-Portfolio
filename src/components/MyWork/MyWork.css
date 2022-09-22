@@ -177,4 +177,16 @@ h2 {
     animation: mymove 5s infinite;
     margin-bottom: 30px;
   }
+  .ImgWrapParallel {
+    transform: scaleY(2s, 100px);
+    padding: 30px;
+    margin: 40px;
+    background-image: radial-gradient(beige, rgb(141, 218, 218));
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0px #555;
+    position: relative;
+    height: 52rem;
+    width: 26rem;
+    animation: mymove 5s infinite;
+  }
 }
