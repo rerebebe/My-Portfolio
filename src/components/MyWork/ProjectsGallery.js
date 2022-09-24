@@ -55,23 +55,28 @@ function ProjectsGallery() {
       <div className="div2n4">
         <div className="ImgWrap">
           <a
-            href="https://flourishing-creponne-591bce.netlify.app/"
+            href="https://aquamarine-salamander-5a8798.netlify.app/"
             target="rel=noopener"
           >
-            <img src="/chat-app.png" alt="chat app" width="600" height="500" />
+            <img
+              src="/Screen Shot 2022-09-24 at 2.55.59 PM.png"
+              alt="chat app"
+              width="600"
+              height="500"
+            />
           </a>
         </div>
         <div>
-          <h1>Chat-App</h1>
+          <h1>Chat-App-V2</h1>
           <p className="paragraph">
-            This is built with socket.io Library in React, I use Node.js and
-            express to build an HTTP Socket server and a basic login/register
-            system. I also use MongoDB as database, you can add friend, get
-            requests and chat in this application and everything will be stored
-            in MongoDB database.
+            Built with socket.io Library in React, I use Node.js and express to
+            build an HTTP Socket server and a basic login/register system. I
+            also use MongoDB as database, you can add friend, get requests and
+            chat in this application and everything will be stored in MongoDB
+            database.
             <div className="parallel">
               <a
-                href="https://flourishing-creponne-591bce.netlify.app/"
+                href="https://aquamarine-salamander-5a8798.netlify.app/"
                 target="rel=noopener"
               >
                 <button className="buttonNeonYellow">
@@ -93,6 +98,46 @@ function ProjectsGallery() {
       </div>
 
       <div>
+        <div>
+          <h1>Chat-App</h1>
+          <p className="paragraph">
+            This is built with socket.io Library in React, I use Node.js and
+            express to build an HTTP Socket server and a basic login/register
+            system. I also use MongoDB as database, you can add friend, get
+            requests and chat in this application and everything will be stored
+            in MongoDB database.
+            <div className="parallel">
+              <a
+                href="https://flourishing-creponne-591bce.netlify.app/"
+                target="rel=noopener"
+              >
+                <button className="buttonNeonOrange">
+                  Check this out{" "}
+                  <IoIosArrowRoundForward size="1.5rem" margin="auto" />
+                </button>
+              </a>
+              <a
+                href="https://github.com/rerebebe/chat-app"
+                target="rel=noopener"
+              >
+                <span className="Sizechange">
+                  <GoMarkGithub size="2rem" margin="auto" />
+                </span>
+              </a>
+            </div>
+          </p>
+        </div>
+        <div className="ImgWrap">
+          <a
+            href="https://flourishing-creponne-591bce.netlify.app/"
+            target="rel=noopener"
+          >
+            <img src="/chat-app.png" alt="chat app" width="600" height="500" />
+          </a>
+        </div>
+      </div>
+
+      <div>
         <div className="ImgWrapParallel">
           <a
             href="https://62cfd5a7fa2ec3346e186aba--jovial-baklava-72509f.netlify.app"
@@ -106,7 +151,6 @@ function ProjectsGallery() {
               style={{ marginTop: 20, marginBottom: 20 }}
             />
           </a>
-
           <h1>Motel Landing Page </h1>
           <br />
           <h2>(In the process..)</h2>
