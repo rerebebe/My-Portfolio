@@ -38,8 +38,42 @@ h2 {
       rgba(8, 4, 4, 0.8)
     ),
     url(../../pics/chat-app.png);
-  height: 80vh;
+  height: 75vh;
   width: 100vw;
+  background-repeat: repeat;
+  background-size: 60rem;
+  text-align: center;
+  justify-content: end;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: relative;
+}
+.NewGalleryImg {
+  background: linear-gradient(
+      -45deg,
+      rgba(8, 4, 4, 0.9),
+      rgba(167, 164, 164, 0.7),
+      rgba(8, 4, 4, 0.8)
+    ),
+    url(../../pics/Short-Link.png);
+  height: 100vh;
+  width: 50vw;
+  background-repeat: repeat;
+  background-size: 60rem;
+  text-align: center;
+  justify-content: end;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: relative;
+}
+.NewGalleryImgBottom {
+  background: linear-gradient(
+      -45deg,
+      rgba(8, 4, 4, 0.9),
+      rgba(167, 164, 164, 0.7),
+      rgba(8, 4, 4, 0.8)
+    ),
+    url(../../pics/to-do.png);
+  height: 100vh;
+  width: 50vw;
   background-repeat: repeat;
   background-size: 60rem;
   text-align: center;
@@ -85,7 +119,6 @@ h2 {
 }
 
 .MyWork > div {
-  padding: 70px 0px;
   display: grid;
   grid-template-columns: repeat(2, 50%);
   align-items: center;
@@ -121,14 +154,13 @@ h2 {
   animation: mymove 5s infinite;
 }
 .ImgWrapParallel {
-  padding: 30px;
-  margin: 40px;
+  margin: 30px;
   background-image: radial-gradient(beige, rgb(141, 218, 218));
   border-radius: 8px;
   box-shadow: 2px 2px 5px 0px #555;
-  position: relative;
-  height: 52rem;
-  width: 37rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   animation: mymove 5s infinite;
 }
 

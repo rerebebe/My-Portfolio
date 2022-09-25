@@ -86,7 +86,7 @@ function ProjectsGallery() {
         </div>
       </div> */}
 
-      <div>
+      <div style={{ margin: "40px" }}>
         <div className="ImgWrap">
           <a
             href="https://aquamarine-salamander-5a8798.netlify.app/"
@@ -172,8 +172,8 @@ function ProjectsGallery() {
         </div> */}
       </div>
 
-      <div>
-        <div className="ImgWrapParallel">
+      <div className="ImgWrapParallel">
+        <div>
           <a
             href="https://62cfd5a7fa2ec3346e186aba--jovial-baklava-72509f.netlify.app"
             target="rel=noopener"
@@ -183,11 +183,10 @@ function ProjectsGallery() {
               alt="hotel page"
               width="600"
               height="500"
-              style={{ marginTop: 20, marginBottom: 20 }}
+              style={{ margin: "auto" }}
             />
           </a>
           <h1>Motel Booking System</h1>
-
           <p className="paragraph">
             It is still in the process. The page from the link is designed by me
             and is part of the booking system. It was built when I was in an
@@ -203,14 +202,14 @@ function ProjectsGallery() {
             </a>
           </p>
         </div>
-        <div className="ImgWrapParallel">
+        <div>
           <a href="/my-work/Quiz" target="rel=noopener">
             <img
               src="/Quizzie.png"
               alt="Quiz"
               width="600"
               height="500"
-              style={{ marginTop: 20, marginBottom: 20 }}
+              style={{ margin: "auto" }}
             />
           </a>
           <h1>Quiz App</h1>
@@ -230,16 +229,10 @@ function ProjectsGallery() {
       </div>
 
       <div>
-        <div className="ImgWrap">
-          <a href="/my-work/shortner" target="rel=noopener">
-            <img
-              src="/Shot-Link API.png"
-              alt="link shortner API"
-              width="600"
-              height="500"
-            />
-          </a>
-        </div>
+        <a href="/my-work/shortner" target="rel=noopener">
+          <div className="NewGalleryImg"></div>
+        </a>
+
         <div>
           <h1>Project 4</h1>
           <p className="paragraph">
@@ -255,7 +248,7 @@ function ProjectsGallery() {
         </div>
       </div>
 
-      <div className="div2n4">
+      <div>
         <div>
           <h1>To-Do List</h1>
           <p className="paragraph">
@@ -266,18 +259,17 @@ function ProjectsGallery() {
             json-server as a mock API to store the data for the to-do list. The
             json-server is being deployed on Heroku.
             <a href="/my-work/to-do" target="rel=noopener">
-              <button className="buttonNeonYellow">
+              <button className="buttonNeonOrange">
                 Check this out
                 <IoIosArrowRoundForward size="1.5rem" margin="auto" />
               </button>
             </a>
           </p>
         </div>
-        <div className="ImgWrap">
-          <a href="/my-work/to-do" target="rel=noopener">
-            <img src="/to-do.png" alt="To Do List" width="600" height="500" />
-          </a>
-        </div>
+        <a href="/my-work/to-do" target="rel=noopener">
+          <div className="NewGalleryImgBottom"></div>
+          {/* <img src="/to-do.png" alt="To Do List" width="600" height="500" /> */}
+        </a>
       </div>
     </div>
   );
