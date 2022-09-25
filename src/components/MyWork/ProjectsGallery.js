@@ -32,7 +32,7 @@ function ProjectsGallery() {
               target="rel=noopener"
             >
               <span className="Sizechange">
-                <GoMarkGithub size="2rem" margin="auto" />
+                <GoMarkGithub size="2rem" margin="auto" color="white" />
               </span>
             </a>
           </div>
@@ -156,7 +156,7 @@ function ProjectsGallery() {
                 target="rel=noopener"
               >
                 <span className="Sizechange">
-                  <GoMarkGithub size="2rem" margin="auto" />
+                  <GoMarkGithub size="2rem" margin="auto" color="white" />
                 </span>
               </a>
             </div>
