@@ -172,11 +172,12 @@ function ProjectsGallery() {
         </div> */}
       </div>
 
-      <div className="ImgWrapParallel">
+      <div style={{ margin: "30px" }}>
         <div>
           <a
             href="https://62cfd5a7fa2ec3346e186aba--jovial-baklava-72509f.netlify.app"
             target="rel=noopener"
+            className="ImgWrapParallel"
           >
             <img
               src="/hotelPage.png"
@@ -190,7 +191,7 @@ function ProjectsGallery() {
           <p className="paragraph">
             It is still in the process. The page from the link is designed by me
             and is part of the booking system. It was built when I was in an
-            intern opportunity at a start up.
+            intern opportunity at a start up.{" "}
             <a
               href="https://jovial-baklava-72509f.netlify.app/"
               target="rel=noopener"
@@ -203,7 +204,11 @@ function ProjectsGallery() {
           </p>
         </div>
         <div>
-          <a href="/my-work/Quiz" target="rel=noopener">
+          <a
+            href="/my-work/Quiz"
+            target="rel=noopener"
+            className="ImgWrapParallel"
+          >
             <img
               src="/Quizzie.png"
               alt="Quiz"

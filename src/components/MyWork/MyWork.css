@@ -7,7 +7,6 @@ h2 {
   font-weight: 800;
 }
 .MyWork {
-  display: block;
   margin: 0 2px;
 }
 
@@ -154,6 +153,7 @@ h2 {
   animation: mymove 5s infinite;
 }
 .ImgWrapParallel {
+  padding: 20px;
   margin: 30px;
   background-image: radial-gradient(beige, rgb(141, 218, 218));
   border-radius: 8px;
@@ -161,6 +161,8 @@ h2 {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  width: 35rem;
+  position: relative;
   animation: mymove 5s infinite;
 }
 
@@ -178,6 +180,7 @@ h2 {
     top: 0px;
   }
 }
+
 h1 {
   font-size: 50px;
   font-weight: 900;
