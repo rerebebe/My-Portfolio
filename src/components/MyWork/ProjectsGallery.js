@@ -119,7 +119,7 @@ function ProjectsGallery() {
                 </button>
               </a>
               <a
-                href="https://github.com/rerebebe/chat-app"
+                href="https://github.com/rerebebe/chat-app-v2"
                 target="rel=noopener"
               >
                 <span className="Sizechange">
