@@ -5,7 +5,41 @@ import { GoMarkGithub } from "react-icons/go";
 function ProjectsGallery() {
   return (
     <div className="MyWork">
-      <div>
+      <div className="NewGallery">
+        <section>
+          <h1>Full Stack Project</h1>
+          <p className="paragraph">
+            This is a completed version for to-do list, I used ReactJS, NodeJS,
+            Express, MySQL to build a basic login/register system, It includes
+            registering users, inserting data into a DataBase, and reading the
+            data to allow a login. Once users register/login in their account,
+            they are able to read and create their own data on their the to-do
+            list. The user is able to get reminder alert if it's due on the same
+            date they log in.
+          </p>
+          <div className="parallel">
+            <a
+              href="https://todo-frontend-mysql.herokuapp.com/"
+              target="rel=noopener"
+            >
+              <button className="buttonNeonNew">
+                Check this out
+                <IoIosArrowRoundForward size="1.5rem" margin="auto" />
+              </button>
+            </a>
+            <a
+              href="https://github.com/rerebebe/new-mysql-0807"
+              target="rel=noopener"
+            >
+              <span className="Sizechange">
+                <GoMarkGithub size="2rem" margin="auto" />
+              </span>
+            </a>
+          </div>
+        </section>
+      </div>
+
+      {/* <div>
         <div>
           <h1>Full Stack Project</h1>
           <p className="paragraph">
@@ -50,9 +84,9 @@ function ProjectsGallery() {
             />
           </a>
         </div>
-      </div>
+      </div> */}
 
-      <div className="div2n4">
+      <div>
         <div className="ImgWrap">
           <a
             href="https://aquamarine-salamander-5a8798.netlify.app/"
@@ -79,38 +113,6 @@ function ProjectsGallery() {
                 href="https://aquamarine-salamander-5a8798.netlify.app/"
                 target="rel=noopener"
               >
-                <button className="buttonNeonYellow">
-                  Check this out{" "}
-                  <IoIosArrowRoundForward size="1.5rem" margin="auto" />
-                </button>
-              </a>
-              <a
-                href="https://github.com/rerebebe/chat-app"
-                target="rel=noopener"
-              >
-                <span className="Sizechange">
-                  <GoMarkGithub size="2rem" margin="auto" />
-                </span>
-              </a>
-            </div>
-          </p>
-        </div>
-      </div>
-
-      <div>
-        <div>
-          <h1>Chat-App</h1>
-          <p className="paragraph">
-            This is built with socket.io Library in React, I use Node.js and
-            express to build an HTTP Socket server and a basic login/register
-            system. I also use MongoDB as database, you can add friend, get
-            requests and chat in this application and everything will be stored
-            in MongoDB database.
-            <div className="parallel">
-              <a
-                href="https://flourishing-creponne-591bce.netlify.app/"
-                target="rel=noopener"
-              >
                 <button className="buttonNeonOrange">
                   Check this out{" "}
                   <IoIosArrowRoundForward size="1.5rem" margin="auto" />
@@ -127,14 +129,47 @@ function ProjectsGallery() {
             </div>
           </p>
         </div>
-        <div className="ImgWrap">
+      </div>
+
+      <div className="NewGallery2">
+        <div></div>
+        <div>
+          <h1>Chat-App</h1>
+          <p className="paragraph">
+            This is built with socket.io Library in React, I use Node.js and
+            express to build an HTTP Socket server and a basic login/register
+            system. I also use MongoDB as database, you can add friend, get
+            requests and chat in this application and everything will be stored
+            in MongoDB database.
+            <div className="parallel">
+              <a
+                href="https://flourishing-creponne-591bce.netlify.app/"
+                target="rel=noopener"
+              >
+                <button className="buttonNeonNew">
+                  Check this out{" "}
+                  <IoIosArrowRoundForward size="1.5rem" margin="auto" />
+                </button>
+              </a>
+              <a
+                href="https://github.com/rerebebe/chat-app"
+                target="rel=noopener"
+              >
+                <span className="Sizechange">
+                  <GoMarkGithub size="2rem" margin="auto" />
+                </span>
+              </a>
+            </div>
+          </p>
+        </div>
+        {/* <div className="ImgWrap">
           <a
             href="https://flourishing-creponne-591bce.netlify.app/"
             target="rel=noopener"
           >
             <img src="/chat-app.png" alt="chat app" width="600" height="500" />
           </a>
-        </div>
+        </div> */}
       </div>
 
       <div>
@@ -151,18 +186,17 @@ function ProjectsGallery() {
               style={{ marginTop: 20, marginBottom: 20 }}
             />
           </a>
-          <h1>Motel Landing Page </h1>
-          <br />
-          <h2>(In the process..)</h2>
+          <h1>Motel Booking System</h1>
 
           <p className="paragraph">
-            This project is styled with pure CSS,and using react-router-dom to
-            help navigate through the website . It was a favor for a friend
-            helping them design the Landing Page for their family business, the
-            functionality wasn't completely done since there's lots of
-            discussion still in the progress.
-            <a href="https://62cfd5a7fa2ec3346e186aba--jovial-baklava-72509f.netlify.app">
-              <button className="buttonNeonOrange" target="rel=noopener">
+            It is still in the process. The page from the link is designed by me
+            and is part of the booking system. It was built when I was in an
+            intern opportunity at a start up.
+            <a
+              href="https://jovial-baklava-72509f.netlify.app/"
+              target="rel=noopener"
+            >
+              <button className="buttonNeonOrange">
                 Check this out{" "}
                 <IoIosArrowRoundForward size="1.5rem" margin="auto" />
               </button>
