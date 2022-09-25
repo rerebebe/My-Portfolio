@@ -286,8 +286,16 @@ h1 {
     border-radius: 5px;
     box-shadow: 2px 2px 5px 0px #555;
     position: relative;
-    height: 52rem;
-    width: 26rem;
+    height: 16rem;
+    width: 25rem;
     animation: mymove 5s infinite;
+  }
+  .NewGalleryImg {
+    height: 60vh;
+    width: 100vw;
+  }
+  .NewGalleryImgBottom {
+    height: 60vh;
+    width: 100vw;
   }
 }
