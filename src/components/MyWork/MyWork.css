@@ -79,7 +79,7 @@ h2 {
   color: white;
   display: grid; */
   padding-right: 100px;
-  /* transition-duration: 1.5s; */
+  transition-duration: 1.5s;
   animation: bgcolor 3s ease-in-out;
 }
 .NewGalleryImg {
