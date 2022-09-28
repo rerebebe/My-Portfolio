@@ -172,7 +172,14 @@ function ProjectsGallery() {
         </div> */}
       </div>
 
-      <div style={{ margin: "30px" }}>
+      <div
+        style={{
+          margin: "30px",
+          display: "flex",
+          gap: "30px",
+          alignItems: "stretch",
+        }}
+      >
         <div>
           <a
             href="https://62cfd5a7fa2ec3346e186aba--jovial-baklava-72509f.netlify.app"
