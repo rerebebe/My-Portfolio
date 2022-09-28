@@ -176,8 +176,8 @@ function ProjectsGallery() {
         style={{
           margin: "30px",
           display: "flex",
-          gap: "30px",
-          alignItems: "stretch",
+          justifyContent: "space-between",
+          alignItems: "start",
         }}
       >
         <div>
@@ -210,7 +210,13 @@ function ProjectsGallery() {
             </a>
           </p>
         </div>
-        <div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
           <a
             href="/my-work/Quiz"
             target="rel=noopener"
