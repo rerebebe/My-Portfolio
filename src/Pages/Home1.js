@@ -36,11 +36,11 @@ function Home1() {
           </p>
           <EmailForm />
         </div>
-        <div className="mt-12 lg:relative">
+        <div className="lg:relative">
           <div>
             <img
               src={current ? "/IMG_2445.png" : "/IMG_3446.png"}
-              alt="This is a unicorn."
+              alt="This is a Memoji."
               width="700"
               height="700"
             />

@@ -67,14 +67,13 @@
 .About {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  margin-top: 30px;
-  margin-bottom: 30px;
+  /* margin-top: 10px;
+  margin-bottom: 30px; */
 }
 /* lg:py-24 mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 */
 .TitleWithoutPic {
   padding: 10px;
-  margin: 50px;
-  margin-top: 90px;
+  margin: 30px;
   align-content: center;
   justify-content: center;
 }
