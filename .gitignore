@@ -16,4 +16,11 @@ db.json
 /public
 /dist
 
+
 .eslintcache
+
+# config files
+/craco.config.js
+/tailwind.config.js
+
+/package-lock.json
