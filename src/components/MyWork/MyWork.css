@@ -340,3 +340,7 @@ h1 {
     width: 100vw;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}

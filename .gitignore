@@ -1,5 +1,6 @@
 # dependencies
 /node_modules
+/logs
 
 
 # misc
@@ -10,3 +11,7 @@
 
 # original json-server database
 db.json
+
+# build
+/public
+/dist
