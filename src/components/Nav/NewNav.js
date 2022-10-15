@@ -34,10 +34,7 @@ const NewNav = () => {
           >
             My Work
           </Navbar.Link>
-          <Navbar.Link
-            href="https://github.com/rerebebe/My-Portfolio"
-            target="_blank"
-          >
+          <Navbar.Link href="" target="_blank">
             GitHub
           </Navbar.Link>
           <Navbar.Link
