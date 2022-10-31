@@ -49,6 +49,7 @@ const App2 = () => {
   // 從資料庫抓出資料, 只能出現一次
   useEffect(() => {
     fetchData(setData);
+    console.log(data);
   }, []);
 
   useEffect(() => {

@@ -1,13 +1,10 @@
-body {
+* {
   margin: 0;
   padding: 0;
 }
 h2 {
   font-size: x-large;
   font-weight: 800;
-}
-.MyWork {
-  margin: 0 2px;
 }
 
 .NewGallery {
@@ -91,10 +88,11 @@ h2 {
     ),
     url(../../pics/Short-Link.png);
   height: 100vh;
-  width: 49vw;
+  width: 50vw;
   background-repeat: repeat;
   background-size: 60rem;
   text-align: center;
+  display: flex;
   justify-content: end;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   position: relative;
@@ -115,10 +113,11 @@ h2 {
     ),
     url(../../pics/to-do.png);
   height: 100vh;
-  width: 50vw;
+  width: 49vw;
   background-repeat: repeat;
   background-size: 60rem;
   text-align: center;
+
   justify-content: end;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   position: relative;
