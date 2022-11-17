@@ -247,16 +247,21 @@ function ProjectsGallery() {
       </div>
 
       <div>
-        <a href="/my-work/shortner" target="rel=noopener">
+        <a
+          href="https://golden-granita-c893d6.netlify.app/"
+          target="rel=noopener"
+        >
           <div className="NewGalleryImg"></div>
         </a>
 
         <div>
-          <h1>Project 4</h1>
+          <h1>Weather API</h1>
           <p className="paragraph">
-            This is a practive project of API integration that built with React,
-            Tailwind, and shrtcode API.
-            <a href="/my-work/shortner" target="rel=noopener">
+            Weather API built with typesctipt.
+            <a
+              href="https://golden-granita-c893d6.netlify.app/"
+              target="rel=noopener"
+            >
               <button className="buttonNeonOrange">
                 Check this out
                 <IoIosArrowRoundForward size="1.5rem" margin="auto" />
