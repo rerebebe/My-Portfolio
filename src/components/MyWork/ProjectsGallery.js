@@ -19,7 +19,7 @@ function ProjectsGallery() {
           </p>
           <div className="parallel">
             <a
-              href="https://todo-frontend-mysql.herokuapp.com/"
+              href="https://frontend-todo-app-2-fb9b407fa646.herokuapp.com/"
               target="rel=noopener"
             >
               <button className="buttonNeonNew">
