@@ -1,92 +1,50 @@
 import "./MyWork.css";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import { GoMarkGithub } from "react-icons/go";
+import { FaGithub } from "react-icons/fa";
+import WorkItem from "./WorkItem";
 
 function ProjectsGallery() {
   return (
     <div className="MyWork">
       <div className="NewGallery">
-        <section>
-          <h1>Full Stack Project</h1>
-          <p className="paragraph">
-            This is a completed version for to-do list, I used ReactJS, NodeJS,
+        <WorkItem
+          title="Full Stack Project"
+          description="This is a completed version for to-do list, I used ReactJS, NodeJS,
             Express, MySQL to build a basic login/register system, It includes
             registering users, inserting data into a DataBase, and reading the
             data to allow a login. Once users register/login in their account,
             they are able to read and create their own data on their the to-do
             list. The user is able to get reminder alert if it's due on the same
-            date they log in.
-          </p>
-          <div className="parallel">
+            date they log in."
+          link="https://frontend-todo-app-2-fb9b407fa646.herokuapp.com/"
+        />
+      </div>
+      <div>
+        <a
+          href="https://golden-granita-c893d6.netlify.app/"
+          target="rel=noopener"
+        >
+          <div className="NewGalleryImg"></div>
+        </a>
+
+        <div>
+          <h1>Weather API</h1>
+          <p className="paragraph">
+            Weather API built with typesctipt.
             <a
-              href="https://frontend-todo-app-2-fb9b407fa646.herokuapp.com/"
+              href="https://golden-granita-c893d6.netlify.app/"
               target="rel=noopener"
             >
-              <button className="buttonNeonNew">
+              <button className="buttonNeonOrange">
                 Check this out
                 <IoIosArrowRoundForward size="1.5rem" margin="auto" />
               </button>
             </a>
-            <a
-              href="https://github.com/rerebebe/new-mysql-0807"
-              target="rel=noopener"
-            >
-              <span className="Sizechange">
-                <GoMarkGithub size="2rem" margin="auto" color="white" />
-              </span>
-            </a>
-          </div>
-        </section>
-      </div>
-
-      {/* <div>
-        <div>
-          <h1>Full Stack Project</h1>
-          <p className="paragraph">
-            This is a completed version for to-do list, I used ReactJS, NodeJS,
-            Express, MySQL to build a basic login/register system, It includes
-            registering users, inserting data into a DataBase, and reading the
-            data to allow a login. Once users register/login in their account,
-            they are able to read and create their own data on their the to-do
-            list. The user is able to get reminder alert if it's due on the same
-            date they log in.
-            <div className="parallel">
-              <a
-                href="https://todo-frontend-mysql.herokuapp.com/"
-                target="rel=noopener"
-              >
-                <button className="buttonNeonOrange">
-                  Check this out
-                  <IoIosArrowRoundForward size="1.5rem" margin="auto" />
-                </button>
-              </a>
-              <a
-                href="https://github.com/rerebebe/new-mysql-0807"
-                target="rel=noopener"
-              >
-                <span className="Sizechange">
-                  <GoMarkGithub size="2rem" margin="auto" />
-                </span>
-              </a>
-            </div>
           </p>
         </div>
-        <div className="ImgWrap">
-          <a
-            href="https://todo-frontend-mysql.herokuapp.com/"
-            target="rel=noopener"
-          >
-            <img
-              src="/MySQL.png"
-              alt="MySQL login ToDoList"
-              width="640"
-              height="420"
-            />
-          </a>
-        </div>
-      </div> */}
+      </div>
 
-      <div style={{ margin: "40px" }}>
+      {/* <div style={{ margin: "40px" }}>
         <div className="ImgWrap">
           <a
             href="https://aquamarine-salamander-5a8798.netlify.app/"
@@ -123,17 +81,26 @@ function ProjectsGallery() {
                 target="rel=noopener"
               >
                 <span className="Sizechange">
-                  <GoMarkGithub size="2rem" margin="auto" />
+                  <FaGithub size="2rem" margin="auto" />
                 </span>
               </a>
             </div>
           </p>
         </div>
-      </div>
+      </div> */}
 
       <div className="NewGallery2">
         <div></div>
-        <div>
+        <WorkItem
+          title="Chat-App"
+          description="This is built with socket.io Library in React, I use Node.js and
+            express to build an HTTP Socket server and a basic login/register
+            system. I also use MongoDB as database, you can add friend, get
+            requests and chat in this application and everything will be stored
+            in MongoDB database."
+          link="https://aquamarine-salamander-5a8798.netlify.app/"
+        />
+        {/* <div>
           <h1>Chat-App</h1>
           <p className="paragraph">
             This is built with socket.io Library in React, I use Node.js and
@@ -143,7 +110,7 @@ function ProjectsGallery() {
             in MongoDB database.
             <div className="parallel">
               <a
-                href="https://flourishing-creponne-591bce.netlify.app/"
+                href="https://aquamarine-salamander-5a8798.netlify.app/"
                 target="rel=noopener"
               >
                 <button className="buttonNeonNew">
@@ -156,23 +123,15 @@ function ProjectsGallery() {
                 target="rel=noopener"
               >
                 <span className="Sizechange">
-                  <GoMarkGithub size="2rem" margin="auto" color="white" />
+                  <FaGithub size="2rem" margin="auto" color="white" />
                 </span>
               </a>
             </div>
           </p>
-        </div>
-        {/* <div className="ImgWrap">
-          <a
-            href="https://flourishing-creponne-591bce.netlify.app/"
-            target="rel=noopener"
-          >
-            <img src="/chat-app.png" alt="chat app" width="600" height="500" />
-          </a>
         </div> */}
       </div>
 
-      <div
+      {/* <div
         style={{
           margin: "30px",
           display: "flex",
@@ -244,24 +203,17 @@ function ProjectsGallery() {
             </a>
           </p>
         </div>
-      </div>
+      </div> */}
 
       <div>
-        <a
-          href="https://golden-granita-c893d6.netlify.app/"
-          target="rel=noopener"
-        >
-          <div className="NewGalleryImg"></div>
-        </a>
-
         <div>
-          <h1>Weather API</h1>
+          <h1>Quiz App</h1>
           <p className="paragraph">
-            Weather API built with typesctipt.
-            <a
-              href="https://golden-granita-c893d6.netlify.app/"
-              target="rel=noopener"
-            >
+            This is a React project styled with pure CSS and part of
+            TailwindCSS, it was another practice of React and in the end you can
+            check what was your answer of each questions. And it will give you
+            comments in the end based on your score of the quiz.
+            <a href="/my-work/Quiz" target="rel=noopener">
               <button className="buttonNeonOrange">
                 Check this out
                 <IoIosArrowRoundForward size="1.5rem" margin="auto" />
@@ -269,29 +221,8 @@ function ProjectsGallery() {
             </a>
           </p>
         </div>
-      </div>
-
-      <div>
-        <div>
-          <h1>To-Do List</h1>
-          <p className="paragraph">
-            This is a Reasct project styled with TailwindCSS, it includes the
-            basic function of adding and editing, other than that it has another
-            section for finished tasks, and it lets you examine what items you
-            have been done before and you can also delete it afterwards! I used
-            json-server as a mock API to store the data for the to-do list. The
-            json-server is being deployed on Heroku.
-            <a href="/my-work/to-do" target="rel=noopener">
-              <button className="buttonNeonOrange">
-                Check this out
-                <IoIosArrowRoundForward size="1.5rem" margin="auto" />
-              </button>
-            </a>
-          </p>
-        </div>
-        <a href="/my-work/to-do" target="rel=noopener">
+        <a href="/my-work/Quiz" target="rel=noopener">
           <div className="NewGalleryImgBottom"></div>
-          {/* <img src="/to-do.png" alt="To Do List" width="600" height="500" /> */}
         </a>
       </div>
     </div>
