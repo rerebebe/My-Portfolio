@@ -17,8 +17,8 @@ h2 {
     url(../../pics/MySQL.png);
   height: 80vh;
   width: 100vw;
-  background-repeat: repeat;
-  background-size: 60rem;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   display: flex;
   align-items: center;
@@ -28,8 +28,6 @@ h2 {
   color: white;
 }
 .NewGallery:hover {
-  /* background-repeat: auto; */
-  /* color: black; */
   display: grid;
   padding-left: 100px;
   transition-duration: 1.5s;
@@ -56,8 +54,8 @@ h2 {
     url(../../pics/chat-app.png);
   height: 75vh;
   width: 100vw;
-  background-repeat: repeat;
-  background-size: 60rem;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   justify-content: end;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -65,16 +63,6 @@ h2 {
   color: white;
 }
 .NewGallery2:hover {
-  /* background: linear-gradient(
-      45deg,
-      rgba(191, 187, 187, 0.511),
-      rgba(167, 167, 167, 0.397),
-      rgba(222, 144, 157, 0.705)
-    ),
-    url(../../pics/chat-app.png);
-  background-repeat: auto;
-  color: white;
-  display: grid; */
   padding-right: 100px;
   transition-duration: 1.5s;
   animation: bgcolor 3s ease-in-out;
@@ -89,8 +77,8 @@ h2 {
     url(../../pics/weatherapi.png);
   height: 100vh;
   width: 50vw;
-  background-repeat: repeat;
-  background-size: 50rem;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   display: flex;
   justify-content: end;
@@ -102,7 +90,8 @@ h2 {
   /* animation: bgcolor 1s ease-in; */
   filter: brightness(1.2);
   background-size: 200%;
-  transition-duration: 0.5s;
+  /* transition-duration: 0.5s; */
+  animation: bgcolor 1s ease-in-out;
 }
 .NewGalleryImgBottom {
   background: linear-gradient(
@@ -114,8 +103,8 @@ h2 {
     url(../../pics/Quizze.png);
   height: 100vh;
   width: 49vw;
-  background-repeat: repeat;
-  background-size: 60rem;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
 
   justify-content: end;

@@ -28,8 +28,8 @@ function Home1() {
             <span>Regina Liu</span>
           </h1>
           <p className="text-3xl">
-            I am a Software Engineer working with React and JavaScript. Take a
-            look at my work and get in touch! Please check my profolio for more
+            I am a Software Engineer working with React and JavaScript. Check
+            out my work and get in touch! Please check my portfolio for more
             details &#128521;
             <br />
             Contact me if you are interested!
