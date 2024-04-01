@@ -1,6 +1,6 @@
 import "./MyWork.css";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import { FaGithub } from "react-icons/fa";
+
 import WorkItem from "./WorkItem";
 
 function ProjectsGallery() {

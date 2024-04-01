@@ -38,7 +38,7 @@ const NewNav = () => {
             GitHub
           </Navbar.Link>
           <Navbar.Link
-            href="https://drive.google.com/file/d/1fbAgSA1_bKQAUi4Gn5Wtmtao_TxK9tnu/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1gftUV8LmFAupdP6y883gixrwyivza5EB/view?usp=drive_link"
             target="_blank"
           >
             Resume
