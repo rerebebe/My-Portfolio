@@ -1,10 +1,10 @@
-import { useState } from "react";
-import { Navbar, Text, useTheme } from "@nextui-org/react";
-import { Box } from "./Box.js";
-import { Link, useLocation } from "react-router-dom";
-import MobileNav from "./MobileNav.js";
-import Burger from "./Burger";
-import { CgUserlane } from "react-icons/cg";
+import { useState } from 'react';
+import { Navbar, Text, useTheme } from '@nextui-org/react';
+import { Box } from './Box.js';
+import { Link, useLocation } from 'react-router-dom';
+import MobileNav from './MobileNav.js';
+import Burger from './Burger';
+import { CgUserlane } from 'react-icons/cg';
 
 const NewNav = () => {
   const { isDark } = useTheme();
@@ -21,15 +21,15 @@ const NewNav = () => {
         </Navbar.Brand>
         <Navbar.Content enableCursorHighlight hideIn="xs" variant="underline">
           <Navbar.Link
-            style={{ color: "blue", fontWeight: "bolder", fontSize: "400px" }}
-            isActive={locationPathname.includes("home")}
+            style={{ color: 'blue', fontWeight: 'bolder', fontSize: '400px' }}
+            isActive={locationPathname.includes('home')}
             color="inherit"
             href="/home"
           >
             About
           </Navbar.Link>
           <Navbar.Link
-            isActive={locationPathname.includes("my-work")}
+            isActive={locationPathname.includes('my-work')}
             href="/my-work"
           >
             My Work
@@ -38,13 +38,13 @@ const NewNav = () => {
             GitHub
           </Navbar.Link>
           <Navbar.Link
-            href="https://drive.google.com/file/d/1gftUV8LmFAupdP6y883gixrwyivza5EB/view?usp=drive_link"
+            href="https://docs.google.com/document/d/e/2PACX-1vTI84kGjQbIsTqZR36zQh4X2MIL982yZ6wpvRcUeeEP5gPzi5fKLYfzIPgDCgOSLFt3lYQZvYvt70vH/pub"
             target="_blank"
           >
             Resume
           </Navbar.Link>
         </Navbar.Content>
-        <div style={{ color: "transparent" }}>somethinng</div>
+        <div style={{ color: 'transparent' }}>somethinng</div>
         {active && <MobileNav active={active} setActive={setActive} />}
       </Navbar>
     </Box>

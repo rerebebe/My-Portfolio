@@ -1,12 +1,12 @@
-import "./MyWork.css";
-import { IoIosArrowRoundForward } from "react-icons/io";
+import './MyWork.css';
+import { IoIosArrowRoundForward } from 'react-icons/io';
 
-import WorkItem from "./WorkItem";
+import WorkItem from './WorkItem';
 
 function ProjectsGallery() {
   return (
     <div className="MyWork">
-      <div className="NewGallery">
+      {/* <div className="NewGallery">
         <WorkItem
           title="Full Stack Project"
           description="This is a completed version for to-do list, I used ReactJS, NodeJS,
@@ -17,6 +17,13 @@ function ProjectsGallery() {
             list. The user is able to get reminder alert if it's due on the same
             date they log in."
           link="https://frontend-todo-app-2-fb9b407fa646.herokuapp.com/"
+        />
+      </div> */}
+      <div className="NewGallery">
+        <WorkItem
+          title="Full Stack Project"
+          description="A white-elephant game built with TypeScript, React.js and Tailwind CSS, where users can create or join a game room, and then start the game. In the game, each player will get a random gift, and they can choose to open their gift or steal other player's gift. The player who gets the white elephant gift will lose the game."
+          link="https://wish-fountain-secret-santa.netlify.app/"
         />
       </div>
       <div>
