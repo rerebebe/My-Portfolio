@@ -9,7 +9,7 @@ function Home1() {
   useEffect(() => {
     setTimeout(() => {
       setCurrent(!current);
-    }, 1000);
+    }, 6000);
   });
   return (
     <div className="App">
@@ -44,8 +44,8 @@ function Home1() {
             <img
               src={current ? '/IMG_2445.png' : '/IMG_3446.png'}
               alt="This is a Memoji."
-              width="700"
-              height="700"
+              width="500"
+              height="500"
             />
           </div>
         </div>
