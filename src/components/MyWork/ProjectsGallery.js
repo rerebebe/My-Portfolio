@@ -232,6 +232,15 @@ function ProjectsGallery() {
           <div className="NewGalleryImgBottom"></div>
         </a>
       </div>
+
+      <div className="NewGallery3">
+        <div></div>
+        <WorkItem
+          title="Astro Project"
+          description="接案作品 - 幫客戶使用Astro建立一個台灣地圖網站, 使用Astro框架, 並且使用TailwindCSS進行樣式設計。"
+          link="https://taiwanmap.netlify.app/"
+        />
+      </div>
     </div>
   );
 }

@@ -1,139 +1,246 @@
+/* ==========================================================================
+   Reset & Global
+   ========================================================================== */
 * {
   margin: 0;
   padding: 0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 h2 {
   font-size: x-large;
   font-weight: 800;
 }
 
+/* ==========================================================================
+   Shared variables
+   ========================================================================== */
+:root {
+  --gallery-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+    sans-serif;
+  --card-shadow: 2px 2px 5px 0px #555;
+  --card-bg: radial-gradient(beige, rgb(141, 218, 218));
+}
+
+/* ==========================================================================
+   Gallery sections (NewGallery / NewGallery2)
+   Same structure, different image + a few size/alignment tweaks.
+   ========================================================================== */
+.NewGallery,
+.NewGallery2,
+.NewGallery3 {
+  height: 80vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: var(--gallery-font);
+  position: relative;
+  color: white;
+}
+
 .NewGallery {
-  background: linear-gradient(
+  background-image: linear-gradient(
       -45deg,
       rgba(8, 4, 4, 0.8),
       rgba(25, 23, 23, 0.8),
       rgba(0, 0, 0, 0.6)
     ),
     url(../../pics/wish-fountain.png);
-  height: 80vh;
-  width: 100vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  position: relative;
-  color: white;
 }
+
+.NewGallery2 {
+  background-image: linear-gradient(
+      -45deg,
+      rgba(93, 106, 98, 0.148),
+      rgba(15, 24, 17, 0.32),
+      rgba(12, 35, 24, 0.768)
+    ),
+    url(../../pics/chat-app.png);
+  height: 75vh;
+  justify-content: end;
+}
+
+.NewGallery3 {
+  background-image: linear-gradient(
+      -45deg,
+      rgba(16, 18, 16, 0.8),
+      rgba(11, 26, 18, 0.2),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../../pics/Taiwanmap.png);
+  height: 75vh;
+  justify-content: end;
+}
+
+.NewGallery:hover,
+.NewGallery2:hover,
+.NewGallery3:hover {
+  transition-duration: 1.5s;
+  animation: bgcolor 3s ease-in-out;
+}
+
 .NewGallery:hover {
   display: grid;
   padding-left: 100px;
-  transition-duration: 1.5s;
-  animation: bgcolor 3s ease-in-out;
+}
+
+.NewGallery2:hover {
+  padding-right: 100px;
+}
+
+.NewGallery3:hover {
+  padding-right: 100px;
 }
 @keyframes bgcolor {
   0% {
     background-size: 100%;
     filter: brightness(1);
   }
-
   100% {
     background-size: 130%;
     filter: brightness(2);
   }
 }
-.NewGallery2 {
-  background: linear-gradient(
-      -45deg,
-      rgba(8, 4, 4, 0.8),
-      rgba(25, 23, 23, 0.2),
-      rgba(0, 0, 0, 0.8)
-    ),
-    url(../../pics/chat-app.png);
-  height: 75vh;
-  width: 100vw;
+
+/* ==========================================================================
+   Split gallery images (Img / ImgBottom)
+   Same structure, different image + width.
+   ========================================================================== */
+.NewGalleryImg,
+.NewGalleryImgBottom {
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   justify-content: end;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: var(--gallery-font);
   position: relative;
-  color: white;
 }
-.NewGallery2:hover {
-  padding-right: 100px;
-  transition-duration: 1.5s;
-  animation: bgcolor 3s ease-in-out;
-}
+
 .NewGalleryImg {
-  background: linear-gradient(
+  background-image: linear-gradient(
       -45deg,
       rgba(8, 4, 4, 0.9),
       rgba(150, 177, 180, 0.7),
       rgba(255, 255, 255, 0.8)
     ),
     url(../../pics/weatherapi.png);
-  height: 100vh;
   width: 50vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
   display: flex;
-  justify-content: end;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  position: relative;
 }
-.NewGalleryImg:hover,
-.NewGalleryImgBottom:hover {
-  /* animation: bgcolor 1s ease-in; */
-  filter: brightness(1.2);
-  background-size: 200%;
-  /* transition-duration: 0.5s; */
-  animation: bgcolor 1s ease-in-out;
-}
+
 .NewGalleryImgBottom {
-  background: linear-gradient(
+  background-image: linear-gradient(
       -45deg,
       rgba(8, 4, 4, 0.9),
       rgba(167, 164, 164, 0.7),
       rgba(8, 4, 4, 0.8)
     ),
     url(../../pics/Quizze.png);
-  height: 100vh;
   width: 49vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-
-  justify-content: end;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  position: relative;
 }
-.buttonNeonNew {
+
+.NewGalleryImg:hover,
+.NewGalleryImgBottom:hover {
+  filter: brightness(1.2);
+  background-size: 200%;
+  animation: bgcolor 1s ease-in-out;
+}
+
+/* ==========================================================================
+   Neon buttons
+   ========================================================================== */
+.buttonNeon {
   margin: 5px;
   background-color: transparent;
   display: flex;
   font-size: large;
-  border: 2px solid white;
+  border: 2px solid var(--neon-color, white);
   padding-inline: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
-  color: white;
+  color: var(--neon-text, white);
   border-radius: 2ex;
   cursor: pointer;
-  /* position: absolute;
-  top: 80%; */
 }
-.buttonNeonNew:hover {
-  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.644),
-    0px 0px 10px rgba(255, 255, 255, 0.52);
-  background-color: rgba(246, 246, 246, 0.1);
+
+.buttonNeon:hover {
+  box-shadow: 0px 0px 10px var(--neon-glow-1, rgba(255, 255, 255, 0.644)),
+    0px 0px 10px var(--neon-glow-2, rgba(255, 255, 255, 0.52));
+  background-color: var(--neon-hover-bg, rgba(246, 246, 246, 0.1));
   transition: 0.8s;
   padding-inline: 35px;
 }
 
+/* white variant (default look, kept as its own class for existing markup) */
+.buttonNeonNew {
+  --neon-color: white;
+  --neon-text: white;
+}
+
+/* yellow/green variant */
+.buttonNeonYellow {
+  --neon-color: greenyellow;
+  --neon-text: white;
+  --neon-glow-1: rgba(160, 223, 58, 0.561);
+  --neon-glow-2: rgba(93, 211, 14, 0.7);
+  --neon-hover-bg: rgba(103, 173, 106, 0.2);
+  margin: 2px; /* only real difference from the base margin */
+}
+
+/* orange variant */
+.buttonNeonOrange {
+  --neon-color: #ff9100;
+  --neon-text: #ff9100;
+  --neon-glow-1: rgba(255, 101, 30, 0.644);
+  --neon-glow-2: rgba(255, 101, 30, 0.52);
+  --neon-hover-bg: rgba(255, 115, 73, 0.1);
+}
+
+/* Apply the shared base rules to each named variant automatically.
+   (Add `buttonNeon` in your HTML alongside the color class, e.g.
+   class="buttonNeon buttonNeonYellow" — see note at bottom of file.) */
+.buttonNeonNew,
+.buttonNeonYellow,
+.buttonNeonOrange {
+  background-color: transparent;
+  display: flex;
+  font-size: large;
+  border: 2px solid var(--neon-color);
+  padding-inline: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: var(--neon-text);
+  border-radius: 2ex;
+  cursor: pointer;
+}
+
+.buttonNeonNew:hover,
+.buttonNeonYellow:hover,
+.buttonNeonOrange:hover {
+  box-shadow: 0px 0px 10px var(--neon-glow-1, rgba(255, 255, 255, 0.644)),
+    0px 0px 10px var(--neon-glow-2, rgba(255, 255, 255, 0.52));
+  background-color: var(--neon-hover-bg, rgba(246, 246, 246, 0.1));
+  transition: 0.8s;
+  padding-inline: 35px;
+}
+
+/* ==========================================================================
+   Layout helpers
+   ========================================================================== */
 .parallel {
   display: flex;
   flex-direction: row;
@@ -141,10 +248,12 @@ h2 {
   gap: 8px;
   padding-left: 55%;
 }
+
 .Sizechange {
   color: black;
 }
-.Sizechange :hover {
+
+.Sizechange:hover {
   color: white;
 }
 
@@ -155,6 +264,7 @@ h2 {
   justify-items: center;
   text-align: center;
 }
+
 .paragraph {
   align-items: center;
   justify-items: center;
@@ -171,30 +281,43 @@ h2 {
   text-align: center;
   align-items: center;
   padding: 70px;
-  word-break: break-all;
   padding-right: 10px;
+  word-break: break-all;
+}
+
+.Icon {
+  position: absolute;
+  top: 28%;
+  margin-left: 10px;
+  color: white;
+  transform: translateX(-50%);
+}
+
+/* ==========================================================================
+   Card wrappers (ImgWrap / ImgWrapParallel)
+   Same background/shadow/animation, different padding/layout/size.
+   ========================================================================== */
+.ImgWrap,
+.ImgWrapParallel {
+  background-image: var(--card-bg);
+  border-radius: 5px;
+  box-shadow: var(--card-shadow);
+  position: relative;
+  animation: mymove 5s infinite;
 }
 
 .ImgWrap {
   padding: 30px;
-  background-image: radial-gradient(beige, rgb(141, 218, 218));
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px 0px #555;
-  position: relative;
-  animation: mymove 5s infinite;
 }
+
 .ImgWrapParallel {
   padding: 20px;
   margin: 30px;
-  background-image: radial-gradient(beige, rgb(141, 218, 218));
   border-radius: 8px;
-  box-shadow: 2px 2px 5px 0px #555;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   width: 35rem;
-  position: relative;
-  animation: mymove 5s infinite;
 }
 
 @keyframes mymove {
@@ -212,64 +335,9 @@ h2 {
   }
 }
 
-h1 {
-  font-size: 50px;
-  font-weight: 900;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.buttonNeonYellow {
-  margin: 2px;
-  background-color: transparent;
-  display: flex;
-  font-size: large;
-  border: 2px solid greenyellow;
-  padding-inline: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: white;
-  border-radius: 2ex;
-  cursor: pointer;
-}
-
-.Icon {
-  position: absolute;
-  top: 28%;
-  margin-left: 10px;
-  color: white;
-  transform: translateX(-50%);
-  /* opacity: 0%; */
-}
-
-.buttonNeonYellow:hover {
-  box-shadow: 0px 0px 10px rgba(160, 223, 58, 0.561),
-    0px 0px 10px rgba(93, 211, 14, 0.7);
-  background-color: rgba(103, 173, 106, 0.2);
-  transition: 0.8s;
-  padding-inline: 35px;
-}
-
-.buttonNeonOrange {
-  margin: 5px;
-  background-color: transparent;
-  display: flex;
-  font-size: large;
-  border: 2px solid #ff9100;
-  padding-inline: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: #ff9100;
-  border-radius: 2ex;
-  cursor: pointer;
-}
-.buttonNeonOrange:hover {
-  box-shadow: 0px 0px 10px rgba(255, 101, 30, 0.644),
-    0px 0px 10px rgba(255, 101, 30, 0.52);
-  background-color: rgba(255, 115, 73, 0.1);
-  transition: 0.8s;
-  padding-inline: 35px;
-}
-
+/* ==========================================================================
+   Portrait / mobile overrides
+   ========================================================================== */
 @media (orientation: portrait) {
   .MyWork > div {
     padding: 30px;
@@ -279,56 +347,41 @@ h1 {
     text-align: center;
     flex-direction: column;
   }
+
   .div2n4 {
-    background-image: linear-gradient(to left, rgb(88, 224, 195), pink);
     display: flex;
     text-align: center;
     align-items: center;
-    /* padding: 90px; */
     justify-items: center;
     flex-direction: column;
   }
+
   .paragraph {
-    align-items: center;
-    justify-items: center;
-    text-align: left;
     padding: 10px 1px;
     font-size: medium;
-    text-indent: 30px;
-    line-height: 30px;
   }
-  .ImgWrap {
-    transform: scaleY(2s, 100px);
-    padding: 20px 10px;
-    background-image: radial-gradient(beige, rgb(141, 218, 218));
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px 0px #555;
-    position: relative;
-    animation: mymove 5s infinite;
-    margin-bottom: 30px;
-  }
+
+  .ImgWrap,
   .ImgWrapParallel {
     transform: scaleY(2s, 100px);
+  }
+
+  .ImgWrap {
+    padding: 20px 10px;
+    margin-bottom: 30px;
+  }
+
+  .ImgWrapParallel {
     padding: 30px;
     margin: 40px;
-    background-image: radial-gradient(beige, rgb(141, 218, 218));
     border-radius: 5px;
-    box-shadow: 2px 2px 5px 0px #555;
-    position: relative;
     height: 16rem;
     width: 25rem;
-    animation: mymove 5s infinite;
   }
-  .NewGalleryImg {
-    height: 60vh;
-    width: 100vw;
-  }
+
+  .NewGalleryImg,
   .NewGalleryImgBottom {
     height: 60vh;
     width: 100vw;
   }
-}
-
-html {
-  scroll-behavior: smooth;
 }
